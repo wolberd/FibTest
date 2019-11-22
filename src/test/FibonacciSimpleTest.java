@@ -14,6 +14,7 @@ public class FibonacciSimpleTest {
     public void testOne() {
         int res=Fibonacci.compute(1);
         int expected=0;
+        // you can specify a first parameter message that appears when test fails
         assertEquals("Fib of one not correct:",expected,res);
     }
     @Test
